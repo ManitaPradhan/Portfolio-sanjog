@@ -25,3 +25,31 @@
 {
   color: red;
 }
+
+
+
+header {
+    
+    background: red;
+    margin-left: -120px;
+    margin-right:-120px;
+    
+}
+
+header img{
+    display: block;
+    margin-top: 200px;
+    margin-left: 400px;
+
+    
+}
+header .text .name
+{
+  color: black;
+  margin-top:50px;
+  display: block;
+  font-size: 50px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin-left: 300px;
+}
