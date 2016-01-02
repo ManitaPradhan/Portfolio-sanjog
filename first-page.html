@@ -1,53 +1,147 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
 	<title> Sanjog Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 	<script src="jquery/index.jquery"></script>
-</head>
-<body id="page-top" class="index">
-     <div class="container"> 
- 
-  <!-- navigation bar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-       
-       
-           <div class="name pull-left">
-              <h3><b>SANJOG SHRESTHA</b></h3>
-           </div>
 
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          	<ul class="nav navbar-nav navbar-right">
-          		<li class="hidden">
-          			<a href="#page-top"></a>
-          			</li>
-          			<li class="page-scroll">
-          				<a href="#portfolio"><b>PORTFOLIO</b></a>
-          			</li>	
-          			<li class="page-scroll">
-          				<a href="#about"><b>ABOUT</b></a>
-          			</li>		
-          			<li class="page-scroll">
-          				<a href="#contact"><b>CONTACT</b></a>
-          			</li>
-          			
-          	</ul>
-          </div>
-          
-           
-    </nav>
- 
-  <header>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="img">
-               <img class="img-responsive" src="img/profile.png" alt="">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><h3><b>SANJOG SHRESTHA</b>	</h3></a>
             </div>
-            <div class="text">
-            	<span class="name"> SANJOG SHRESTHA</span>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio"><b>Portfolio</b></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about"><b>About</b></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="text">
+                    	<span class="name">SANJOG SHRESTHA</span>
+                    	<hr>
+                    	<span class="skill">ANDROID DEVELOPER</span>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </header>
+
+    <!-- portfolio grid starts here -->
+ <section id="portfolio">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-lg-12 text-center">
+ 				<h1><b>PORTFOLIO</b></h1>
+ 				<hr class="star-primary">
+ 			</div>
+ 		</div>
+ 		
+ 		<div class="row">
+ 			<div class="col-sm-4 portfolio-item">
+ 				<a href="#portfolio1" class="portfolio-link" data-toggle="modal">
+ 				  
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                       
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section class="success" id="about">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-12 text-center">
+    				<h1><b>ABOUT</b></h1>
+    				<hr class="star-primary">
+    			</div>
+    		</div>
+    		 <div class="col-lg-4 col-lg-offset-2">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
 
 </body>
 </html>     
